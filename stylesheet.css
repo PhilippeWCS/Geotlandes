@@ -1,4 +1,15 @@
-.slide
+.carousel
 {
-	height:600 px;
+	max-height: 500px;
+	overflow: hidden;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+header
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
